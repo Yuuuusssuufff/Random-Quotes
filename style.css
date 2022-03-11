@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+main{
+    width: auto;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote{
+    width: auto;
+    color: white;
+    height: auto;
+    background: blue;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    quotes: auto;   
+}
+#author{
+    width: auto;
+    color: white;
+    height: auto;
+    background: rgb(6, 113, 175);
+    text-align: center;
+    padding: 10px;
+ 
+}
+#button{
+    background-color: tea;
+    color: green;
+    font-weight: 600;
+    width: 150px;
+    height: 30px;
+}
